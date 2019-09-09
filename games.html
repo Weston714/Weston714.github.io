@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <Title>Bren's Portfolio </Title>
+
+ <style>
+@keyframes oof {
+  0% { border: 5px solid red}
+  20% {border: 5px solid yellow}
+  40% {border: 5px solid green}
+  60% {border: 5px solid blue}
+  80% {border: 5px solid purple}
+  100% {border: 5px solid red}
+}
+/* The element to apply the animation to */
+        h1  {
+           font-family:monospace;
+            color:black;
+            padding:10px;
+        }
+        h2 {
+           color: green;
+        }
+        h3 {
+            font-size:50px;
+            font-family:monospace;
+            padding: 10px;
+        }
+        a {
+            color: black;
+            list-style-type: none;
+        }
+          #all-contents {
+                max-width: 1000px;
+                margin: auto;
+                background-color: white;
+                border-radius:40px;
+                border: 5px solid darkblue;
+                animation: oof 15s;
+                animation-iteration-count: infinite;
+                margin-bottom: 10px;
+        }
+          body{
+              background:rgb(20, 42, 79);
+                color: rgb(45, 45, 45);
+          }
+          .sidebar {  margin-right: 25px;
+                padding: 10px;
+          }
+           #portfolio {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            #portfolio li {
+                background: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            #portfolio li:hover {
+                background: #eee;
+            }
+            #portfolio a {
+                text-decoration: none;
+                color: #454545;
+            }
+             nav {
+                background: rgb(black);
+                margin: 0 auto;
+                display: flex;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255,255,255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+            }
+            li {
+            padding: 10px;
+            }
+</style>
+
+
+    </head>
+
+  <body style="background-image:url(ao.gif)">
+
+
+
+
+           <nav>
+            <!-- Nav stuff here...
+            -->
+        </nav>
+
+        <div id="all-contents">
+
+        <main>
+            <div class="content">
+                <h1>Weston's Games! </h1>
+
+                <ul id="portfolio">
+                </ul>
+            </div>
+        </main>
+
+
+      <p1><a href="https://bren519.github.io/PapaGames">Papa's Games</a></p1>
+      <li><a href="https://bren519.github.io/games/Bloxorz">Bloxorz</a></li>
+      <li><a href="https://bren519.github.io/games/Spider-Solitaire">Spider Solitaire</a></li>
+      <li><a href="https://bren519.github.io/games/Learn2Fly2">Learn 2 Fly 2</a></li>
+      <li><a href="https://bren519.github.io/games/run-3">Run 3 (Not Working)</a></li>
+      <li><a href="https://bren519.github.io/games/learn2FlyIdle">Learn 2 Fly Idle</a></li>
+      <li><a href="https://bren519.github.io/games/stickFigureBadmitton">Stick Figure Badmitton</a></li>
+      <li><a href="https://bren519.github.io/games/aquatory">Aquatory</a></li>
+      <li><a href="https://bren519.github.io/games/wonderPutt">Wonder Putt</a></li>
+      <li><a href="https://bren519.github.io/games/ducklife3">Duck life 3</a></li>
+      <li><a href="https://bren519.github.io/games/ducklife4">Duck life 4</a></li>
+      <li><a href="https://bren519.github.io/games/grindcraft">Grindcraft</a></li>
+      <li><a href="https://bren519.github.io/games/earn2die">Earn to Die</a></li>
+      <li><a href="https://bren519.github.io/games/tankTrouble2">Tank Trouble 2</a></li>
+
+      </div>
+
+<!--
+Sites with embed codes:
+www.silvergames.com
+www.kongregate.com
+www.crazygames.com
+www.primarygames.com
+www.miniclip.com?????
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script id="portfolioScript">$(document).ready(function() {$.getJSON('games/games.json').then(function(data) { data.projects.forEach(function(project){ $('#portfolio').append('<li><a href="games/' + project.name + '/">' + project.title + ' : ' + project.description + '</a></li>'); }); }); });</script>
+  -->
+
+    </body>
+</html>
