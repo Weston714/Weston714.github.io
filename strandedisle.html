@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <Title>Weston's games</Title>
+
+ <style>
+@keyframes oof {
+  0% { border: 5px solid red}
+  20% {border: 5px solid yellow}
+  40% {border: 5px solid green}
+  60% {border: 5px solid blue}
+  80% {border: 5px solid purple}
+  100% {border: 5px solid red}
+}
+/* The element to apply the animation to */
+        h1  {
+           font-family:monospace;
+            color:black;
+            padding:10px;
+        }
+        h2 {
+           color: green;
+        }
+        h3 {
+            font-size:50px;
+            font-family:monospace;
+            padding: 10px;
+        }
+        a {
+            color: black;
+            list-style-type: none;
+        }
+          #all-contents {
+                max-width: 1000px;
+                margin: auto;
+                background-color: white;
+                border-radius:40px;
+                border: 5px solid darkblue;
+                animation: oof 15s;
+                animation-iteration-count: infinite;
+                margin-bottom: 10px;
+        }
+          body{
+              background:rgb(20, 42, 79);
+                color: rgb(45, 45, 45);
+          }
+          .sidebar {  margin-right: 25px;
+                padding: 10px;
+          }
+           #portfolio {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            #portfolio li {
+                background: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            #portfolio li:hover {
+                background: #eee;
+            }
+            #portfolio a {
+                text-decoration: none;
+                color: #454545;
+            }
+             nav {
+                background: rgb(black);
+                margin: 0 auto;
+                display: flex;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255,255,255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+            }
+            li {
+            padding: 10px;
+            }
+            .games{
+                text-align:center;
+            }
+            .back{
+                text-align:center;            
+            }
+            .button{
+                border-radius:5px;
+                border:0;
+            }
+            <STYLE TYPE="text/css">
+<!--
+
+canvas#canvas { width: 512px; height: 512px; }
+
+.pico8_el {
+	float:left;
+	width:160px;
+	display:inline-block;
+  	margin: 1px;
+	padding: 4px;
+	text-align: center;
+	color:#fff;
+	background-color:#000;
+	font-family : verdana;
+	font-size: 9pt;
+	cursor: pointer;
+	cursor: hand;
+}
+.pico8_el a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.pico8_el:hover{
+	background-color:#222;
+}
+
+.pico8_el:link{
+	background-color:#aaa;
+}
+
+canvas{
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    border: 0px
+}
+
+-->
+</STYLE>
+</style>
+
+
+    </head>
+
+  <body style="background-image:url(ao.gif)">
+  
+
+           <nav>
+            <!-- Nav stuff here...
+            -->
+        </nav>
+
+        <div id="all-contents">
+
+        <main>
+            <div class="content">
+                <h1>Weston's Games! </h1>
+                <div class="back">
+                <a href="index.html"><button type="button" class="button">back</button></a>
+                </div>
+                <ul id="portfolio">
+                </ul>
+            </div>
+        </main>
+
+    <div class="games">
+      <iframe1 src="https://www.coolmathgames.com/0-stranded-isle/play" class="square" width="512px" height="512px" id="html5game" scrolling="no"></iframe1>
+    </div>
+
+
+                </main>
+        </div>
+    </body>
+</html>
+
+<!--
+Sites with embed codes:
+www.silvergames.com
+www.kongregate.com
+www.crazygames.com
+www.primarygames.com
+www.miniclip.com?????
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script id="portfolioScript">$(document).ready(function() {$.getJSON('games/games.json').then(function(data) { data.projects.forEach(function(project){ $('#portfolio').append('<li><a href="games/' + project.name + '/">' + project.title + ' : ' + project.description + '</a></li>'); }); }); });</script>
+  -->
+
+    </body>
+</html>
